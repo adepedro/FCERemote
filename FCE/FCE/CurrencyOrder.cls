@@ -59,7 +59,7 @@ Property Satisfaction As %String(DISPLAYLIST = "-Great-Good-OK-Bad-Horrible", VA
 /// Canceled:  canceled by customer<br>
 Property Status As %String(VALUELIST = "-Requested-Pending-Rejected-Paid-Completed-Problem-Canceled");
 
-Index StatusIndex On Status [ Type = bitmap ];
+// Index StatusIndex On Status [ Type = bitmap ];
 
 // Index OutIndex On CurrencyOut [ Type = bitmap ];
 
